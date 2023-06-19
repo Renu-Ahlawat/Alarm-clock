@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">Alarm Clock</h1>
+    </div>
+    <div class="clock-container">
+      <div class="circle"></div>
+      <div class="hand hour-hand" id="hourHand"></div>
+      <div class="hand minute-hand" id="minuteHand"></div>
+      <div class="hand second-hand" id="secondHand"></div>
+      <div class="center-circle"></div>
+    </div>
+    <div class="digital-clock" id="digitalClock"></div>
+    <div class="form-container">
+      <input type="time" id="alarmTime" class="time-input">
+      <button id="setAlarmButton" class="set-button">Set Alarm</button>
+    </div>
+    <div id="alarmsContainer"></div>
+  </div>
+
+  <audio id="alarmSound" src="https://2u039f-a.akamaihd.net/downloads/ringtones/files/mp3/wakeup-alarm-tone-21497.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
